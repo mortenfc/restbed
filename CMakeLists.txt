@@ -14,7 +14,7 @@ set( VERSION "${restbed_VERSION}" )
 option( BUILD_SHARED   "Build shared library."              ON )
 option( BUILD_EXAMPLES "Build examples applications."       OFF )
 option( BUILD_TESTS    "Build all available test suites."   OFF )
-option( BUILD_SSL      "Build secure socket layer support."  ON )   
+option( BUILD_SSL      "Build secure socket layer support."  OFF )   
 
 #
 # Configuration
